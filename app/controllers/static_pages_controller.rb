@@ -2,10 +2,16 @@ class StaticPagesController < ApplicationController
   def home
   end
 
-  def help
+  def Personal_training
   end
 
-  def about
+  def services
+  end
+
+  def testimonials
+  end
+
+  def blog
   end
 
   def contact

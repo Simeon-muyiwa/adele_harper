@@ -6,9 +6,12 @@ AdeleHarper::Application.routes.draw do
 
   match '/signup',  to: 'users#new', via: 'get'
   
-  match '/help', to: 'static_pages#help', via: 'get'
-  match '/about', to: 'static_pages#about', via: 'get'
+  match '/services', to: 'static_pages#services', via: 'get'
+  match '/personaltraining', to: 'static_pages#personaltraining', via: 'get'
   match '/contact', to: 'static_pages#contact', via: 'get'
+  match '/blog', to: 'static_pages#blog', via: 'get'
+  match '/testimonials', to: 'static_pages#testimonials', via: 'get'
+  
   
   
   # The priority is based upon order of creation: first created -> highest priority.
